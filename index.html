@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>webSite</title>
+    <title>Faz & Nova</title>
 </head>
 <body>
     <header>
         <nav class="navigation">
-            <a href="#" class="logo">Faz<span>&</span>Nova</a>
+            <a href="#" id="logo">Faz<span>&</span>Nova</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="./index.html">Home</a></li>
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="#baixar1">Sobre</a></li>  
                 <li class="nav-item"><a href="#">Contacto</a></li>
-                           </ul>
+            </ul>
             <div class="menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -27,10 +26,11 @@
     </header>
     <main>
         <section class="home">
+            <span id="inicio"></span>
             <div class="home-text">
-                <h4 class="text-h4">Bem vindo ao Faz & Nova</h4>
+                <h4 class="text-h4">Bemvindo ao Faz & Nova</h4>
                 <h1 class="text-h1">A plataforma de oportunidade de trabalho</h1>
-                <p>Encontre oportunidades de trabalho de forma rapida e facil num click.</p>
+                <p>Encontre oportunidades de trabalho de forma rápida e fácil num click.</p>
                 
                 <!--<a href="./formulario/formulario.html" class="home-btn"target="_blank"> </a>
                 <div>
@@ -41,17 +41,54 @@
                 <div>
                     <a href="./formulario/formulario.html" class="home-btn"target="_blank">Cadastrar como Prestador De Serviço </a>
                 </div> -->
-                <button class="home-btn "><a href="./formulario.html" target="_blank"class="a"> Cadastrar como <br>Prestador De Serviço</a></button>
-                <button class="home-btn"><a href="./formulario_cliente.html" target="_blank"class="a">Cadastrar como <br>Cliente/Contratante</a></button>
+                <button class="home-btn "><a href="./formulario.html" target="_blank"class="a"> Cadastrar como <br>prestador De serviço</a></button>
+                <button class="home-btn"><a href="./formulario_cliente.html" target="_blank"class="a">Cadastrar como <br>cliente/contratante</a></button>
+
+
+                
                
                 
                 
             </div>
+
             <div class="home-img">
-                <img src="transferir (1).jpg" alt="hamburguer">
+                <img src="imagem_tela.png" alt="hamburguer">
             </div>
+            
         </section>
+        
+        <div id="contentSobre">
+            <h2 id="baixar1">Sobre</h2>
+            <hr class="barra">
+        </div>
+    
+        
+            
+                
+                
+        <div class="baixar">
+            <p class="baixar2">
+                <span class="span_sobre_texto">Faz</span> & <span class="span_sobre_texto">Nova</span> é uma plataforma voltada a tecnológia com formação desde Técnico Profissional, Técnico Médio ou Técnico Superior.És um técnico de frio, estucador, programador de software, designer gráfico, pintor, mecânico, carpinteiro, psicólogo, Empregada Doméstica, Cuidadora de Crianças; ou seja qual for área que és formado, aqui tem espaço pra você.
+<br><br>
+
+<strong>Nossa plataforma é baseado em web e mobile (App).</strong>
+<br><br>
+
+Temos parceiros - clientes (particulares e empresas) que procuraram diariamente serviços em diversas áreas e com certeza tens aqui a grande oportunidade de potencializar tua profissão sem necessariamente serres funcionário/empregado duma empresa. Aqui no <span class="span_sobre_texto">Faz</span> & <span class="span_sobre_texto">Nova</span>, te tornas numa autonomia financeira porque não precisas prestar contas com ninguém não tens obrigatoriedade de teres um espaço físico. Nós temos espaço físico (escritório) pra reunir com teus clientes quer seja da plataforma Faz & Nova ou doutras fontes, e após a prestação de serviço, o cliente recebe uma factura certificada pela AGT.
+            </p>
+        <div>
+            <img src="img1.jpg" class="imagem-sobre" alt="hamburguer"> 
+
+        </div>
+                    
+        </div>
+            
     </main>
+
+    <footer class="footer">
+        <p id="cor_text_footer">&copy;copyright 2023</p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
